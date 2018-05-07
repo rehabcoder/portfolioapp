@@ -8,21 +8,21 @@ class App extends Component {
   render() {
     return (
       <div>
-    <Layout fixedHeader>
-        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
-            <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+    <Layout>
+        <Header className="header-color" title={<span><span style={{ color: 'black' }}>Sukhpreet Singh</span><strong></strong></span>}>
+            <Navigation >
+                <Link to="/resume" style={{color:'white'}}>Resume</Link>
+
+                <Link to="/projects" style={{color:'white'}}>Projects</Link>
+                <Link to="/contact" style={{color:'white'}}>Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-            <Link to="/resume">Resume</Link>
-            <Link to="/aboutme">About Me</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/resume" style={{color:'green'}}>Resume</Link>
+
+            <Link to="/projects" style={{color:'green'}}>Projects</Link>
+            <Link to="/contact" style={{color:'green'}}>Contact</Link>
             </Navigation>
         </Drawer>
 

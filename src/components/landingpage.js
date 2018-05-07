@@ -8,7 +8,7 @@ class Landing extends Component{
       <Grid className="landing-grid">
         <Cell col={12}>
         <img
-          src="https://sites.dimsum.my/avatar/dimsum-avatar-05.png"
+          src="https://cdn.shopify.com/s/files/1/1003/5864/files/avatar-dongseok-paeng_medium.png?v=1509075310"
           alt="avatar"
           className="avatar-img"
           />
